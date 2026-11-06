@@ -20,6 +20,16 @@ dsh plugin --profile web add https://github.com/cyuni1996/dsh-watch/releases/lat
 
 Restart that same Web profile. Use the in-app plugin manager for DSH Desktop, which manages its own profile.
 
+### Install through DSH Discover
+
+If your DSH version supports Custom plugin indexes, turn it on under Plugins → Experimental plugins. In Discover → Add index source, enter:
+
+```text
+https://raw.githubusercontent.com/cyuni1996/dsh-watch/main/plugin-market.json
+```
+
+Select DSH Watch and check that the source is `cyuni1996/dsh-watch`. Use the same Discover tab to check for updates.
+
 ## 2. Open the installation wizard
 
 In Settings → Watch connection, select a LAN address the watch can reach and save the connection settings. The default port is `8767`. Open the watch installation wizard and check that it reports the debugging tools are ready.

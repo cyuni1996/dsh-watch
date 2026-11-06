@@ -20,6 +20,16 @@ dsh plugin --profile web add https://github.com/cyuni1996/dsh-watch/releases/lat
 
 执行后重启同一个 Web 配置。使用 DSH Desktop 时应在它自己的插件管理器内安装，Web 配置与 Desktop 配置各自管理插件。
 
+### 使用 DSH 自带的发现页
+
+支持「自定义插件索引」的 DSH 可直接从本项目安装和更新。打开「插件 → 实验性插件」，启用「自定义插件索引」。在「发现 → 添加索引源」输入：
+
+```text
+https://raw.githubusercontent.com/cyuni1996/dsh-watch/main/plugin-market.json
+```
+
+选择 DSH Watch 并核对安装来源是 `cyuni1996/dsh-watch`。以后在同一个发现页查看更新。
+
 ## 2. 打开安装向导
 
 进入「设置 → 手表连接」。在「监听地址」选择手表能访问的电脑局域网地址，点击「保存连接设置」。默认端口为 `8767`。打开「手表安装向导」，确认显示「调试工具已就绪」。

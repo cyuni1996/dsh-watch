@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "title": "DSH Watch",
+  "plugins": [
+    {
+      "name": "dsh-watch",
+      "title": "DSH Watch",
+      "description": {
+        "en": "Continue DeepSeek Harness conversations from an Android watch.",
+        "zh": "在 Android 手表上继续 DeepSeek Harness 会话。"
+      },
+      "icon": "docs/media/icon.png",
+      "author": "cyuni1996",
+      "homepage": "https://github.com/cyuni1996/dsh-watch",
+      "repository": {
+        "url": "https://github.com/cyuni1996/dsh-watch"
+      },
+      "versions": [
+        {
+          "version": "0.1.15",
+          "publishTimestamp": 1793996757,
+          "source": {
+            "commit": "2a7f50dda763d6bef2e6ef529b58c628964e328d",
+            "url": "https://github.com/cyuni1996/dsh-watch",
+            "type": "git"
+          }
+        }
+      ]
+    }
+  ]
+}
