@@ -195,9 +195,17 @@ window.__ModuleLoader__.load({
           button('保存连接设置', () => act('listen'), !validPort || (host === state.host && port === String(state.port))))
           : button('刷新连接信息', () => act('refresh')),
         state && state.addresses.map(address => h('div', { key: address, style: { color: '#d8ccae' } }, address)),
+        state && h('div', { style: { display: 'grid', gap: 6 } },
+          h('div', null, '首次使用请打开安装向导。安装完成后由向导授权，日常连接无需保持无线调试。'),
+          h('div', { style: { display: 'flex', gap: 14 } },
+            h('a', { href: 'https://github.com/cyuni1996/dsh-watch/blob/main/docs/INSTALL.zh.md',
+              target: '_blank', rel: 'noopener noreferrer', style: { color: '#a9d5fc' } }, '首次连接教程'),
+            h('a', { href: 'https://github.com/cyuni1996/dsh-watch/blob/main/docs/HELP.zh.md',
+              target: '_blank', rel: 'noopener noreferrer', style: { color: '#a9d5fc' } }, '使用帮助'))),
         state && button(installOpen ? '收起安装向导' : '打开手表安装向导', () => setInstallOpen(!installOpen)),
         installOpen && h(InstallWizard, { state, onLinked: () => request()
           .then(value => setState(current => ({ ...current, devices: value.devices }))).catch(() => {}) }),
+        state && h('small', { style: { color: '#c7d3e6' } }, '手动配对用十位码。无线调试的六位码由手表系统提供。'),
         state && button('生成配对码', () => act('pair')),
         pairing && h('div', { role: 'status' },
           h('code', { style: { fontSize: '1.2em', letterSpacing: '0.08em' } }, pairing.code.slice(0, 5), ' ', pairing.code.slice(5)),

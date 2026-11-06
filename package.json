@@ -1,6 +1,6 @@
 {
   "name": "dsh-watch",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Continue DeepSeek Harness sessions on a round Android watch.",
   "keywords": [
     "dsh-plugin",
