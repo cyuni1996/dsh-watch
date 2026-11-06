@@ -17,6 +17,15 @@
       },
       "versions": [
         {
+          "version": "0.1.16",
+          "publishTimestamp": 1793997096,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/cyuni1996/dsh-watch",
+            "commit": "4ecf10c545636d61be2deeba7264531445a59847"
+          }
+        },
+        {
           "version": "0.1.15",
           "publishTimestamp": 1793996757,
           "source": {
