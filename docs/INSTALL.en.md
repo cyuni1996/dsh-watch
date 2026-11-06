@@ -10,7 +10,7 @@
 
 ## 1. Install the desktop plugin
 
-In the DSH instance you use, open Plugins → Plugin Market, search for `dsh-watch`, install it, and reload DSH when prompted. If your market has yet to refresh, download `dsh-watch.tgz` from [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) and add the file or its download URL in the plugin manager.
+In the DSH instance you use, open Plugins → Plugin Market, search for `dsh-watch`, install it, and enable it under Installed if it is off. Reload DSH when prompted. If your market has yet to refresh, download `dsh-watch.tgz` from [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) and add the file or its download URL in the plugin manager.
 
 For a Web profile you manage from a terminal, for example:
 
@@ -28,7 +28,7 @@ If your DSH version supports Custom plugin indexes, turn it on under Plugins →
 https://raw.githubusercontent.com/cyuni1996/dsh-watch/main/plugin-market.json
 ```
 
-Select DSH Watch and check that the source is `cyuni1996/dsh-watch`. Use the same Discover tab to check for updates.
+Select DSH Watch and check that the source is `cyuni1996/dsh-watch`. After installation, check the plugin switch under Installed. Use the same Discover tab to check for updates.
 
 ## 2. Open the installation wizard
 

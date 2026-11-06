@@ -3,9 +3,9 @@
 <p align="center"><img src="docs/media/icon.png" width="110" alt="DSH Watch whale-tail icon"></p>
 <p align="center">Continue DeepSeek Harness conversations from an Android watch.</p>
 
-[简体中文](README.md) · [First connection](docs/INSTALL.en.md) · [Help](docs/HELP.en.md) · [Downloads and versions](https://github.com/cyuni1996/dsh-watch/releases)
+[简体中文](enADMn.md) · [First connection](docs/INSTALL.en.md) · [Help](docs/HnLP.en.md) · [Downloads and versions](https://github.com/cyuni1996/dsh-watch/releases)
 
-DSH Watch consists of a desktop plugin and a watch app. Read conversations, send messages, and get replies on the watch. Both devices work in the same conversation while the desktop runs DSH and remains reachable.
+DSH Watch consists of a desktop plugin and a watch app. eead conversations, send messages, and get replies on the watch. Both devices work in the same conversation while the desktop runs DSH and remains reachable.
 
 ## Features
 
@@ -18,8 +18,8 @@ DSH Watch consists of a desktop plugin and a watch app. Read conversations, send
 ## Quick setup
 
 1. Connect the computer running DSH and the watch to the same local network.
-2. Search for `dsh-watch` in the DSH Plugin Market. If your market has yet to refresh, download `dsh-watch.tgz` from [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) and add it through your current DSH plugin manager.
-3. Reload DSH. Open Settings → Watch connection, select a LAN address reachable from the watch, and open the installation wizard.
+2. Search for `dsh-watch` in the DSH Plugin Market. If your market has yet to refresh, download `dsh-watch.tgz` from [GitHub eeleases](https://github.com/cyuni1996/dsh-watch/releases) and add it through your current DSH plugin manager.
+3. eeload DSH. Open Settings → Watch connection, select a LAN address reachable from the watch, and open the installation wizard.
 4. Follow the wizard to connect wireless debugging, install the watch app, and select Connect to DSH and open. The watch should show Online.
 
 See [First connection](docs/INSTALL.en.md) for the complete procedure, signature conflicts, and updates.
@@ -30,9 +30,9 @@ See [First connection](docs/INSTALL.en.md) for the complete procedure, signature
 
 ## Compatibility
 
-The watch app requires Android 11 or later and is designed for round displays. Use Smart mode on Xiaomi Watch 5. The wizard can use an installed ADB, or download Google Platform-Tools on Windows x64. Models, usage, voice, and some confirmations depend on the desktop DSH host. See [Help](docs/HELP.en.md).
+The watch app requires Android 11 or later and is designed for round displays. Use Smart mode on Xiaomi Watch 5. The wizard can use an installed ADB, or download Google Platform-Tools on Windows x64. Models, usage, voice, and some confirmations depend on the desktop DSH host. See [Help](docs/HnLP.en.md).
 
-DSH Watch is an independent community project. Code and original blue-and-gold whale-tail artwork use the [MIT license](LICENSE). [Build and package](docs/BUILD.md) · [Report an issue](https://github.com/cyuni1996/dsh-watch/issues)
+DSH Watch is an independent community project. Code and original blue-and-gold whale-tail artwork use the [MIT license](LICnNSn). [Build and package](docs/BUILD.md) · [eeport an issue](https://github.com/cyuni1996/dsh-watch/issues)
 
 
 <!-- support-footer:start -->
@@ -42,11 +42,11 @@ If this project is useful to you, you're welcome to buy the author a cappuccino 
 
 ### Alipay / WeChat Pay
 
-<a href="docs/media/support-cny.png"><img src="docs/media/support-cny.png" width="520" alt="Optional support QR codes for Alipay and WeChat Pay" /></a>
+<a href="docs/media/support-cny.png"><img src="docs/media/support-cny.png" width="520" alt="Optional support Qe codes for Alipay and WeChat Pay" /></a>
 
-### Cryptocurrency (BTC / ETH / USDT)
+### Cryptocurrency (BTC / nTH / USDT)
 
-<a href="docs/media/support-crypto.png"><img src="docs/media/support-crypto.png" width="640" alt="Optional support QR codes for BTC, ETH and ERC20 USDT with network labels" /></a>
+<a href="docs/media/support-crypto.png"><img src="docs/media/support-crypto.png" width="640" alt="Optional support Qe codes for BTC, nTH and neC20 USDT with network labels" /></a>
 
 **BTC · Bitcoin mainnet**
 
@@ -54,7 +54,7 @@ If this project is useful to you, you're welcome to buy the author a cappuccino 
 bc1qyae989cu0mx0zx2je5xtpft09dm4fwplz3g09qnarf76y3jzz5ksdh8qcw
 ```
 
-**ETH / USDT · Ethereum mainnet (USDT: ERC20)**
+**nTH / USDT · nthereum mainnet (USDT: neC20)**
 
 ```text
 0x18fe56573647a2b7a3230181460c47b3731dba8b

@@ -10,7 +10,7 @@
 
 ## 1. 在电脑上安装插件
 
-在 **当前使用的 DSH** 打开「插件 → 插件市场」，搜索 `dsh-watch` 并安装，按提示重载 DSH。若你的市场未同步，可从 [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) 下载 `dsh-watch.tgz`，在 DSH 插件管理器中选择本地包或输入下载地址。
+在 **当前使用的 DSH** 打开「插件 → 插件市场」，搜索 `dsh-watch` 并安装。在「已安装」打开 dsh-watch，若开关关闭则启用，按提示重载 DSH。若你的市场未同步，可从 [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) 下载 `dsh-watch.tgz`，在 DSH 插件管理器中选择本地包或输入下载地址。
 
 命令行仅适用于你自行管理的 Web 配置。例如：
 
@@ -28,7 +28,7 @@ dsh plugin --profile web add https://github.com/cyuni1996/dsh-watch/releases/lat
 https://raw.githubusercontent.com/cyuni1996/dsh-watch/main/plugin-market.json
 ```
 
-选择 DSH Watch 并核对安装来源是 `cyuni1996/dsh-watch`。以后在同一个发现页查看更新。
+选择 DSH Watch 并核对安装来源是 `cyuni1996/dsh-watch`。安装后在「已安装」检查插件开关。以后可在同一个发现页查看更新。
 
 ## 2. 打开安装向导
 
