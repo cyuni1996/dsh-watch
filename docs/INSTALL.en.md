@@ -28,7 +28,7 @@ If your DSH version supports Custom plugin indexes, turn it on under Plugins →
 https://raw.githubusercontent.com/cyuni1996/dsh-watch/main/plugin-market.json
 ```
 
-Select DSH Watch and check that the source is `cyuni1996/dsh-watch`. After installation, check the plugin switch under Installed. Use the same Discover tab to check for updates.
+Select DSH Watch and check that the source is `cyuni1996/dsh-watch`. After installation, check the plugin switch under Installed. To update, open the DSH Watch title in Discover and choose Install next to the recommended version.
 
 ## 2. Open the installation wizard
 
@@ -41,6 +41,8 @@ In Settings → Watch connection, select a LAN address the watch can reach and s
 3. Enter the IP and port shown in that **pairing dialog**, plus its **six-digit system code**, in the desktop wizard and pair wireless debugging.
 4. Refresh devices, select the watch, and choose Install / update DSH Watch. If your watch is already listed, go straight to this step.
 5. If debugging is paired but the watch remains missing, use the IP and port shown on the **main wireless debugging screen** and choose Connect watch. The two screens may use different ports.
+
+![Wireless debugging pairing form with example addresses](media/wireless-pairing.png)
 
 ## 4. Connect to DSH and verify
 

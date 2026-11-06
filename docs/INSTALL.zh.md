@@ -28,7 +28,7 @@ dsh plugin --profile web add https://github.com/cyuni1996/dsh-watch/releases/lat
 https://raw.githubusercontent.com/cyuni1996/dsh-watch/main/plugin-market.json
 ```
 
-选择 DSH Watch 并核对安装来源是 `cyuni1996/dsh-watch`。安装后在「已安装」检查插件开关。以后可在同一个发现页查看更新。
+选择 DSH Watch 并核对安装来源是 `cyuni1996/dsh-watch`。安装后在「已安装」检查插件开关。更新时在「发现」点击 DSH Watch 标题，在「版本」中对推荐的新版本点「安装」。
 
 ## 2. 打开安装向导
 
@@ -41,6 +41,8 @@ https://raw.githubusercontent.com/cyuni1996/dsh-watch/main/plugin-market.json
 3. 在桌面向导输入 **配对弹窗**里的 IP 和端口，以及手表显示的 **六位系统配对码**。点「无线调试配对」。
 4. 点「刷新设备」，选择目标手表，然后点「安装 / 更新 DSH Watch」。已能看到目标手表时直接执行这一步。
 5. 若无线调试已配对但列表仍为空，在向导输入 **无线调试主页面**显示的 IP 和端口，点「连接手表」。主页面和配对弹窗的端口可能不同。
+
+![无线调试配对表单，画面中的地址为示例](media/wireless-pairing.png)
 
 ## 4. 连接 DSH 并验证
 
