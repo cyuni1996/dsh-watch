@@ -1,0 +1,18 @@
+node_modules/
+*.tgz
+.gradle/
+build/
+local.properties
+.local/
+*.jks
+*.apk
+
+# Signed public installer is part of the GitHub plugin bundle.
+!packaging/prebuilt/dsh-watch.apk
+
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.keystore

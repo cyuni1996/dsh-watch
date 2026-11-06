@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DshWatchTheme" parent="android:style/Theme.DeviceDefault.NoActionBar">
+        <!-- The app owns the panel back stack, so a swipe must not finish the Activity. -->
+        <item name="android:windowSwipeToDismiss">false</item>
+    </style>
+</resources>
