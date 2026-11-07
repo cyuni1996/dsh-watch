@@ -10,25 +10,27 @@
 
 ## 1. Install the desktop plugin
 
-In the DSH instance you use, open Plugins → Plugin Market, search for `dsh-watch`, install it, and enable it under Installed if it is off. Reload DSH when prompted. If your market has yet to refresh, download `dsh-watch.tgz` from [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) and add the file or its download URL in the plugin manager.
+### Add the project index to DSH Discover
 
-For a Web profile you manage from a terminal, for example:
-
-```sh
-dsh plugin --profile web add https://github.com/cyuni1996/dsh-watch/releases/latest/download/dsh-watch.tgz
-```
-
-Restart that same Web profile. Use the in-app plugin manager for DSH Desktop, which manages its own profile.
-
-### Install through DSH Discover
-
-If your DSH version supports Custom plugin indexes, turn it on under Plugins → Experimental plugins. In Discover → Add index source, enter:
+In the DSH profile you use, open Plugins → Experimental plugins and turn on Custom plugin indexes. DSH Discover requires an index source. In Discover → Add index source, enter:
 
 ```text
 https://raw.githubusercontent.com/cyuni1996/dsh-watch/main/plugin-market.json
 ```
 
-Select DSH Watch and check that the source is `cyuni1996/dsh-watch`. After installation, check the plugin switch under Installed. To update, open the DSH Watch title in Discover and choose Install next to the recommended version.
+Switch to the **DSH Watch** index, select DSH Watch, and verify that the install source is `cyuni1996/dsh-watch`. After installation, enable the plugin under Installed if needed. Reload DSH when prompted.
+
+### If Custom plugin indexes is unavailable
+
+Download `dsh-watch.tgz` from [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) and add the file or its download URL in your current DSH plugin manager. For a Web profile you manage from a terminal, you can also run:
+
+```sh
+dsh plugin --profile web add https://github.com/cyuni1996/dsh-watch/releases/latest/download/dsh-watch.tgz
+```
+
+Restart that same Web profile. DSH Desktop manages a separate profile. Install through its in-app plugin manager when using DSH Desktop.
+
+[dsh-market](https://dshmarket.com/) uses a separate community catalog. You can install DSH Watch through that catalog when it appears in search results.
 
 ## 2. Open the installation wizard
 
@@ -52,7 +54,7 @@ The wizard authorizes the watch automatically. The **ten-digit code generated on
 
 ## Updates
 
-- **Desktop plugin.** Check for an update in the market of the same DSH profile, or update with the current Release's `dsh-watch.tgz`. Reload DSH.
+- **Desktop plugin.** In the same DSH profile, open Discover and switch to the DSH Watch project index. Open the plugin title, choose Install next to the recommended new version, and reload DSH when prompted. If you installed from a release package, you can also update with the new `dsh-watch.tgz`.
 - **Watch app.** When the release includes a newer watch app, enable wireless debugging and use Install / update DSH Watch for the original device. An update with the same signature preserves app data.
 - **Signature conflict.** Preserve the existing app and confirm the signing source before changing anything. An APK with a different signature cannot update it in place. Uninstalling clears watch pairing, drafts, and local preferences.
 

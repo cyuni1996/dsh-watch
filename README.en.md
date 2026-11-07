@@ -18,7 +18,7 @@ DSH Watch consists of a desktop plugin and a watch app. Read conversations, send
 ## Quick setup
 
 1. Connect the computer running DSH and the watch to the same local network.
-2. Search for `dsh-watch` in the DSH Plugin Market. If your market has yet to refresh, download `dsh-watch.tgz` from [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) and add it through your current DSH plugin manager.
+2. Follow the [first-connection guide](docs/INSTALL.en.md#1-install-the-desktop-plugin) to add the DSH Watch project index in Discover and install the plugin. If Custom plugin indexes is unavailable, download `dsh-watch.tgz` from [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) and add it through your current DSH plugin manager.
 3. Enable the plugin under Installed if it is off, then reload DSH as prompted. Open Settings → Watch connection, select a LAN address reachable from the watch, and open the installation wizard.
 4. Follow the wizard to connect wireless debugging, install the watch app, and select Connect to DSH and open. The watch should show Online.
 

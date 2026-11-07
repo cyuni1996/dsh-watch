@@ -18,7 +18,7 @@ DSH Watch 由电脑插件和手表应用组成。手表能查看电脑上的会�
 ## 快速安装
 
 1. 让运行 DSH 的电脑与手表连到同一个局域网。
-2. 在 DSH 插件市场搜索 `dsh-watch`。若你的市场还未同步，先从 [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) 下载 `dsh-watch.tgz`，用当前 DSH 的插件管理器添加该文件。
+2. 按[首次连接教程](docs/INSTALL.zh.md#1-在电脑上安装插件)，在 DSH「发现」添加 DSH Watch 项目索引并安装。没有「自定义插件索引」时，可以从 [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) 下载 `dsh-watch.tgz`，用当前 DSH 的插件管理器添加。
 3. 在「已安装」确认插件已启用，按提示重载 DSH。进入「设置 → 手表连接」，选择手表可访问的局域网地址，再打开安装向导。
 4. 依向导连接无线调试、安装手表应用，然后点击「连接 DSH 并打开」。手表显示「在线」即连接成功。
 

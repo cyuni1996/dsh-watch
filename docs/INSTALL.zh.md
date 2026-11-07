@@ -10,25 +10,27 @@
 
 ## 1. 在电脑上安装插件
 
-在 **当前使用的 DSH** 打开「插件 → 插件市场」，搜索 `dsh-watch` 并安装。在「已安装」打开 dsh-watch，若开关关闭则启用，按提示重载 DSH。若你的市场未同步，可从 [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) 下载 `dsh-watch.tgz`，在 DSH 插件管理器中选择本地包或输入下载地址。
+### 在 DSH「发现」添加项目索引
 
-命令行仅适用于你自行管理的 Web 配置。例如：
-
-```sh
-dsh plugin --profile web add https://github.com/cyuni1996/dsh-watch/releases/latest/download/dsh-watch.tgz
-```
-
-执行后重启同一个 Web 配置。使用 DSH Desktop 时应在它自己的插件管理器内安装，Web 配置与 Desktop 配置各自管理插件。
-
-### 使用 DSH 自带的发现页
-
-支持「自定义插件索引」的 DSH 可直接从本项目安装和更新。打开「插件 → 实验性插件」，启用「自定义插件索引」。在「发现 → 添加索引源」输入：
+在你正在使用的 DSH 中打开「插件 → 实验性插件」，启用「自定义插件索引」。DSH 自带的「发现」需要先添加索引源。在「发现 → 添加索引源」粘贴：
 
 ```text
 https://raw.githubusercontent.com/cyuni1996/dsh-watch/main/plugin-market.json
 ```
 
-选择 DSH Watch 并核对安装来源是 `cyuni1996/dsh-watch`。安装后在「已安装」检查插件开关。更新时在「发现」点击 DSH Watch 标题，在「版本」中对推荐的新版本点「安装」。
+切换到 **DSH Watch** 索引，选中 DSH Watch 并核对安装来源是 `cyuni1996/dsh-watch`。安装后到「已安装」确认插件开关已开启，按提示重载 DSH。
+
+### 没有「自定义插件索引」时
+
+从 [GitHub Releases](https://github.com/cyuni1996/dsh-watch/releases) 下载 `dsh-watch.tgz`，在当前 DSH 的插件管理器中添加本地包或输入下载地址。自行管理 Web 配置时也可用命令行：
+
+```sh
+dsh plugin --profile web add https://github.com/cyuni1996/dsh-watch/releases/latest/download/dsh-watch.tgz
+```
+
+执行后重启同一个 Web 配置。使用 DSH Desktop 时，在它自己的插件管理器里安装。Web 和 Desktop 各自管理插件。
+
+[dsh-market](https://dshmarket.com/zh/) 使用独立的社区目录。能在该目录搜到 DSH Watch 时，也可以从那里安装。
 
 ## 2. 打开安装向导
 
@@ -52,7 +54,7 @@ https://raw.githubusercontent.com/cyuni1996/dsh-watch/main/plugin-market.json
 
 ## 更新
 
-- **桌面插件**。在原来的 DSH 配置中通过市场检查更新，或用当前 Release 的 `dsh-watch.tgz` 覆盖更新。更新后重载 DSH。
+- **桌面插件**。在原来的 DSH 配置中打开「发现」，切换到 DSH Watch 项目索引。点击插件标题，在「版本」中对推荐的新版本点「安装」，按提示重载 DSH。用发布包安装的用户也可以添加新版 `dsh-watch.tgz` 覆盖更新。
 - **手表应用**。如果发布包含新版手表应用，重新开启无线调试，在向导选择原设备并点「安装 / 更新 DSH Watch」。签名一致时会覆盖更新并保留应用数据。
 - **遇到签名冲突**。先保留现有应用，确认新旧包来自同一签名来源。不同签名无法覆盖，卸载会清除手表端配对、草稿与本地设置。
 
